@@ -1,3 +1,3 @@
 <?php
-    echo "Hello WSL!<br>";
+    echo "Hello WSL2!<br>";
     echo phpinfo();
