@@ -1,0 +1,9 @@
+{
+    "name": "Hello",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [8080],
+    "overrideCommand": false,
+    "mounts": [
+        "source=${localWorkspaceFolder}src,target=/var/www/html,type=bind,consistency=cached"
+    ]
+}
