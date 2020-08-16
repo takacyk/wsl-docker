@@ -4,6 +4,6 @@
     "forwardPorts": [8080],
     "overrideCommand": false,
     "mounts": [
-        "source=${localWorkspaceFolder}src,target=/var/www/html,type=bind,consistency=cached"
+        "source=${localWorkspaceFolder}/src,target=/var/www/html,type=bind,consistency=cached"
     ]
 }
